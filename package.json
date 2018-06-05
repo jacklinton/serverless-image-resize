@@ -18,5 +18,9 @@
   "homepage": "https://github.com/jacklinton/serverless-image-resize#readme",
   "devDependencies": {
     "serverless-offline": "^3.25.2"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.251.1",
+    "sharp": "^0.20.3"
   }
 }
