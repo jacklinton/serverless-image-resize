@@ -21,8 +21,8 @@ provider:
       Resource: "arn:aws:s3:::${self:custom.bucket}"
 
   environment:
-    BUCKET: ${self.custom.bucket}
-    URL: ${self.custom.url}
+    BUCKET: ${self:custom.bucket}
+    URL: ${self:custom.url}
 
 functions:
   resize:
