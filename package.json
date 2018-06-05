@@ -1,0 +1,22 @@
+{
+  "name": "serverless-image-resize",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacklinton/serverless-image-resize.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jacklinton/serverless-image-resize/issues"
+  },
+  "homepage": "https://github.com/jacklinton/serverless-image-resize#readme",
+  "devDependencies": {
+    "serverless-offline": "^3.25.2"
+  }
+}
